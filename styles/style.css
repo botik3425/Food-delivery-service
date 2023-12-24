@@ -1,0 +1,48 @@
+/* Hero */
+.hero-list{
+    width: 502px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero-text{
+    color: var(--Black);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+margin-bottom: 40px;
+}
+.hero-slog{
+    color: var(--Black);
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 57.6px ;
+margin-bottom: 28px;
+}
+.hero-arrow{
+    background-image: url(../images/button-left.png);
+    background-position: center;
+    width: 48px;
+height: 40px;
+border: none;
+border-radius: 8px;
+}
+.hero-photo{
+    border-radius: 580px;
+    background-color: var(--Yellow);
+    display: flex;
+    padding: 26px;
+    width: 580px;
+height: 580px;
+}
+.hero-food{
+    display: block;
+    background-color: var(--white);
+    border-radius: 269px;
+    pointer-events: none;
+}
