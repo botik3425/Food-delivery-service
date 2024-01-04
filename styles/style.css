@@ -54,3 +54,122 @@ box-sizing: content-box;
     height: 40px;
     display: block;
 }
+
+/* Whats-Special-About-Our-Offerings(wsaoo) */
+.Whats-Special-About-Our-Offerings{
+    background-color: var(--Yellow);
+}
+.wsaoo-container{
+    padding-left: 100px;
+    padding-top: 113px;
+    padding-bottom: 100px;
+}
+.wsaoo-content{
+    margin-left: 160px;
+}
+.wsaoo-title{
+    color: var(--Black);
+font-family: Roboto;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 50.4px;
+width: 500px;
+}
+.wsaoo-sent{
+    color: var(--Black);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+width: 500px;
+}
+.wsaoo-button{
+    border-radius: 30px;
+border: 2px solid var(--Dark-green, #7EB101);
+background: #FFF;
+display: inline-flex;
+padding: 10px 22px;
+justify-content: center;
+align-items: center;
+width: 62px;
+height: 20px;
+box-sizing: content-box;
+color: var(--Black);
+font-family: Roboto;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: 19.5px;
+margin-top: 32px;
+}
+.wsaoo-item{
+    width: 253px;
+}
+.wsaoo-list{
+    margin-top: 40px;
+    display: flex;
+    column-gap: 67px;
+}
+.wsaoo-slog{
+    color: var(--Black);
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 25.2px;
+margin: 8px 0px 16px 0px;
+}
+.wsaoo-info{
+    color: var(--Black);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+}
+/* .wsaoo-img{
+     border-radius: 502px;
+    background: var(--white);
+    width: 502px;
+height: 502px;
+flex-shrink: 0;
+
+}
+.wsaoo-apple{
+    padding: 0px 46px 78px 60px;
+} */
+
+/* Some of Favourites(sof) */
+
+.sof-container{
+ flex-direction: column;
+ padding: 100px 40px 141px 40px;
+}
+.sof-title{
+    color: var(--Black);
+text-align: center;
+font-family: Roboto;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.sof-text{
+    color: var(--Black);
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 20px;
+}
+.sof-list{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 114px;
+    column-gap: 111px;
+    padding-top: 81px;
+}
