@@ -24,25 +24,33 @@ font-weight: 700;
 line-height: 57.6px ;
 margin-bottom: 28px;
 }
-.hero-arrow{
+/* .hero-arrow{
     background-image: url(../images/button-left.png);
     background-position: center;
     width: 48px;
 height: 40px;
 border: none;
 border-radius: 8px;
-}
+} */
 .hero-photo{
-    border-radius: 580px;
-    background-color: var(--Yellow);
+    /* border-radius: 580px;
+    background-color: var(--Yellow); */
+    background-image: url(../images/Ellipse.png);
     display: flex;
-    padding: 26px;
+    /* padding: 26px; */
     width: 580px;
 height: 580px;
+box-sizing: content-box;
 }
 .hero-food{
     display: block;
-    background-color: var(--white);
+    /* background-color: var(--white); */
     border-radius: 269px;
     pointer-events: none;
+}
+.hero-food::before{
+    content: url(../images/button-left.png);
+    width: 40px;
+    height: 40px;
+    display: block;
 }
