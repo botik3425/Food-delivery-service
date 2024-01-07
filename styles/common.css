@@ -4,6 +4,7 @@
   width: 1248px;
   margin: 0 auto;
   padding: 0 15px;
+  box-sizing: content-box;
 }
 :root {
   --green: #bbf330;
