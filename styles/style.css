@@ -173,7 +173,9 @@ flex-shrink: 0;
   row-gap: 114px;
   column-gap: 111px;
   padding-top: 81px;
+  justify-content: center;
 }
+
 
 .sof-image {
   flex-basis: calc((100% - 2 * 111px) / 3);
